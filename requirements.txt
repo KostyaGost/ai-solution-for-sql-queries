@@ -1,6 +1,5 @@
 pandas
 openpyxl
-pandasql
 tabulate
 duckdb
 python-dotenv
