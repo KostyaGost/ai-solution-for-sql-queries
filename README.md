@@ -27,27 +27,27 @@ git clone https://github.com/KostyaGost/ai-solution-for-sql-queries.git
 cd ai-solution-for-sql-queries
 ```
 
-2. Create venv:
+3. Create venv:
 ```bash
 python -m venv .venv
 ```
 
-3. Acivate venv:
+4. Acivate venv:
 ```bash
 source .venv/Scripts/activate
 ```
 
-4. Install dependencies:
+5. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Configure environment:
+6. Configure environment:
 ```bash
-cp .env.example .env
+cp .env.example .env && rm .env.example
 ```
 
-5. Edit `.env` and add your OpenAI API key:
+7. Edit `.env` and add your OpenAI API key:
 ```
 OPENAI_API_KEY=your-actual-api-key
 ```
