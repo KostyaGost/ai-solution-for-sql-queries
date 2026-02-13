@@ -3,6 +3,6 @@ openpyxl
 pandasql
 tabulate
 duckdb
-dotenv
+python-dotenv
 openai
 click
