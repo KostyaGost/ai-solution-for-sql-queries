@@ -1,0 +1,8 @@
+pandas
+openpyxl
+pandasql
+tabulate
+duckdb
+dotenv
+openai
+click
